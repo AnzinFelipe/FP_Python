@@ -1,8 +1,9 @@
-def escrita_votos(voto):
+def escrita_votos():
     arquivo = open("Lista_Ex5\Votos.txt", "w")
-    for i in voto:
+    for i in range(10):
         try:
-            arquivo.write(i + "\n")
+            voto = input("Digite o código do seu filme favorito: ") 
+            arquivo.write(voto + "\n")
         except ValueError:
             print("A função arquivo.write só aceita string")
     arquivo.close()
@@ -38,14 +39,10 @@ def leitura_e_apuracao_votos():
     except FileNotFoundError:
         print("\nO arquivo Votos.txt não existe\n")
 
-lista_votos = []
-
 print("\n---VOTAÇÃO---")
 print("1 - Star Wars\n"
 "2 - Star Trek")
-for i in range(10):
-    voto = input("Digite o código do seu filme favorito: ")
-    lista_votos.append(voto)
-    escrita_votos(lista_votos)
+
+escrita_votos()
 
 leitura_e_apuracao_votos()
