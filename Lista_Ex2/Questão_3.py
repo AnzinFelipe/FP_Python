@@ -11,3 +11,4 @@ while True:
         print("\nA solução é básica\n")
     else:
         print("\nA solução é neutra\n")
+        

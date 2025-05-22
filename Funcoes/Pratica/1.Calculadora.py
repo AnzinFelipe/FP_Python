@@ -35,3 +35,4 @@ while continuar == "S":
         print(divisao(num1, num2))
 
     continuar = input("\nDeseja realizar outra operação? [S]/[N] ").upper()
+    

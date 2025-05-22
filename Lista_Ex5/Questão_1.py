@@ -31,3 +31,4 @@ try:
     arquivo.close()
 except ValueError:
     print("\nErro: é preciso digitar um valor numérico\n")
+    

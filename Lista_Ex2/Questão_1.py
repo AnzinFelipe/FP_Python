@@ -13,3 +13,4 @@ while True:
         print("\nPertence ao quarto quadrante\n")
     elif cord_x == 0 or cord_y == 0:
         break
+    

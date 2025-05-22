@@ -10,3 +10,4 @@ elif gols2 > gols1:
     print(f"\nO time {time2} foi o vencedor\n")
 else:
     print("\nEMPATE\n")
+    

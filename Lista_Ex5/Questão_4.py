@@ -38,3 +38,4 @@ while True:
         except ValueError:
             print("\nErro: é preciso escrever um número inteiro")
         arquivo.close()
+        
