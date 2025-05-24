@@ -7,7 +7,7 @@ _Fundamentos de programação_ classes are focused on pratical learning of progr
 
 In the first classes we were introduced to **Portugol**
 
-A pseudo languagem that uses portuguese to facilitate understanding
+A pseudo language that uses portuguese to facilitate understanding
 
 It was able to demonstrate the basics of programming logic
 
