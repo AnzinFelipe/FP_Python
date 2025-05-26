@@ -1,4 +1,4 @@
-arquivo = open("arquivo.txt", "w", encoding = "utf8")
+arquivo = open("Manipulacao_de_arquivos\\arquivo.txt", "w", encoding = "utf8")
 
 for i in range(5):
     nome = input(f"Digite o {i + 1}º nome: ")
@@ -14,6 +14,6 @@ for i in range(5):
     sobrenome = input(f"Digite o {i + 1}º sobrenome: ")
     nomes_completos.append(f"{nome} {sobrenome}")
 
-arquivo2 = open("arquivo2.txt", "w", encoding = "utf8")
+arquivo2 = open("Manipulacao_de_arquivos\\arquivo2.txt", "w", encoding = "utf8")
 arquivo2.writelines("\n".join(nomes_completos) + "\n")
 arquivo2.close()

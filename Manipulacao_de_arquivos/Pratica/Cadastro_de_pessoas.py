@@ -2,7 +2,7 @@ nomes = []
 sobrenomes = []
 idades = []
 
-N = int(input("Quantas pessoas serão cadastradas? "))
+N = int(input("\nQuantas pessoas serão cadastradas? "))
 
 for i in range(N):
     nome = input(f"Digite o nome da {i + 1}ª pessoa: ")
@@ -12,14 +12,14 @@ for i in range(N):
     sobrenomes.append(sobrenome)
     idades.append(idade)
 
-arquivo = open("Pratica\Pessoas_cadastradas", "w", encoding = "utf8")
+arquivo = open("Manipulacao_de_arquivos\Pratica\Pessoas_cadastradas", "w", encoding = "utf8")
 
 arquivo.write("Há " + str(N) + " pessoas cadastradas" + "\n")
 for i in range(N):
     arquivo.write("Nome: " + nomes[i] + " " + sobrenomes[i] + " Idade: " + idades[i] + "\n")
 arquivo.close()
 
-arquivo = open("Pratica\Pessoas_cadastradas", "r", encoding = "utf8")
+arquivo = open("Manipulacao_de_arquivos\Pratica\Pessoas_cadastradas", "r", encoding = "utf8")
 print("")
 print(arquivo.read())
 arquivo.close()
